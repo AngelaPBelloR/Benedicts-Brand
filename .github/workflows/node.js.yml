@@ -41,7 +41,7 @@ jobs:
       #   run: npm test
       - run: npm run build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v7
+        uses: actions/upload-pages-artifact@v5
         with:
           # upload build materials
           path: 'build'
